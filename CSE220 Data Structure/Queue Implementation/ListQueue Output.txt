@@ -1,0 +1,30 @@
+toString Output:[ 1 3 5 7 9 11 ]
+=> 1
+=> 3
+=> 5
+=> 7
+=> 9
+=> 11
+size: 6
+isEmpty: false
+Distance of '1' from the top: 0
+Dequeued: 1
+Dequeued: 3
+Dequeued: 5
+size: 3
+isEmpty: false
+Distance of '1' from the top: -1
+=> 7
+=> 9
+=> 11
+Peeked: 7
+toString Output:[ 7 9 11 ]
+Dequeued: 7
+Dequeued: 9
+Dequeued: 11
+Queue Empty
+QueueUnderflowException
+toString Output: Empty Queue
+size: 0
+isEmpty: true
+Distance of '1' from the top: -1

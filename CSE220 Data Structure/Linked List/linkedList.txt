@@ -1,0 +1,182 @@
+public class LinkedList{
+   public Node head;
+
+	//(*1*Creating a list of elements)
+public LinkedList(Object[]a){
+    head = new Node(a[0],null);
+    Node temp = head;
+    for(int i = 1 ; i < a.length ; i++){
+       Node n = new Node(a[i],null){
+       temp.next = n;
+       temp = n;
+   }
+  }
+}
+
+	//(*2*)
+public LinkedList(Node h){
+   head = h;
+}
+
+	//(*3*Counting the number of elements*)
+public int countNode(){
+int count= 0;
+   for(Node n = head ; n!= null ; n = n.next){
+   count++;
+   }
+   return count;
+}   
+
+	//(*4*Iterating over the elements)
+public void printList(){
+   for(Node n = head ; n!= null ; n = n.next){
+   System.out.println(n.element+" ");
+   }
+}
+
+	//(*5*)
+public Node nodeAt(int idx){
+    Node ndt=null;
+    int count=0;
+    for(Node n = head ; n!=  null ; n=n.next){
+	if(count==idx){
+	ndt=n;
+    }
+    else{
+	count++;
+    }
+    return ndt;	
+   }
+}
+
+	//(*6*Getting an element given the index into a list)
+public Obejct get(int idx){
+Node ndt = null;
+int count=0;
+    for(Node n = head ; n!= null; n=n.next){
+    if(count==idx){
+    ndt=n.element;   
+    }
+    else{
+    count++;
+    }
+    return ndt;
+   }
+}
+
+	//(*7*)
+public Object set(int idx, Objcet elem){
+int count=0;
+Object o= null;
+	for(Node n= head; n!=null; n=n.next){
+	if(count==idx){
+	o=n.element;
+	n.element=elem;	
+	}
+	else{
+	count ++;
+	}
+   }
+	return o;
+}
+
+	//(*8*)
+public int indexOf(Object elem){
+
+}
+
+	//(*9*)
+public static int indexOf(Node head, int size, object elem){
+int i= 0;
+for(Node n= head; n!=null; n=n.next){
+if(n.element.equals(elem)){
+return i;
+}
+else{
+return -1;
+}
+}
+}
+
+	//(*10*)
+public static boolean contains(Node head, int size,object element){
+int i=0;
+for(Node n= head; n!=null; n=n.next){
+if(n.element.equals(elem)){
+return true;
+}
+else{
+
+return false;
+}
+}
+}
+
+	//(*11*Inserting an element)
+public insert Object(Object elem, int idx){
+Node n= new Node(elem,null);
+	if(idx==o){
+	n.next=head;
+	head=n;
+	}
+	else{
+	Node p = nodeAt(idx-1);
+	n.next=p.next;
+	p.next=n; 
+}
+
+}
+
+	//(*12*Removing an element)
+public Object remove(int index){
+if(index<0 || inde>size){
+throw new IndexOutOfBoundException();
+}
+Node removeNode= null;
+	if(index==0){
+	removeNode=head;
+	head=removeNode.next;
+	}
+	else{
+	Node p= nodeAt(index-1);
+	removeNode=p.next;
+	p.next=removeNode.next;
+	}
+}
+
+	//(*13*Copying the list)
+public Node copyList(){
+Node h=null;t=null;
+	for(Node n=head;n!=null;n=n.next){
+	Node nn= new Node(n.element,null);	
+	if(h==null){
+	h=nn;
+	t=h;
+	}
+	else{
+	t.next=nn;
+	t=t.next;
+	}
+}
+return h;
+}
+
+	//(*14*Reversing the list)
+public Node reverseList(){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
