@@ -1,0 +1,18 @@
+Arrays
+Searching
+Strings
+Bit Magic
+Recursion
+Hashing
+Divide & Conquer
+Stacks
+Queues
+Linked List
+Trees
+BST
+Greedy Algorithms
+Dynamic Programming
+Heaps
+Graphs
+Trie
+Mathematical Algorithms
