@@ -1,0 +1,31 @@
+Stack Full
+StackOverflowException
+toString Output: 9 7 5 3 1
+=> 9
+=> 7
+=> 5
+=> 3
+=> 1
+size: 5
+isEmpty: false
+Distance of '1' from the top: 4
+Popped: 9
+Popped: 7
+Popped: 5
+size: 2
+isEmpty: false
+Distance of '1' from the top: 1
+=> 3
+=> 1
+Peeked: 3
+toString Output: 3 1
+Popped: 3
+Popped: 1
+Stack Empty
+StackUnderflowException
+Stack Empty
+StackUnderflowException
+toString Output: Empty Stack
+size: 0
+isEmpty: true
+Distance of '1' from the top: -1

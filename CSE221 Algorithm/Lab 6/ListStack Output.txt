@@ -1,0 +1,30 @@
+toString Output: 11 9 7 5 3 1
+=> 11
+=> 9
+=> 7
+=> 5
+=> 3
+=> 1
+size: 6
+isEmpty: false
+Distance of '1' from the top: 5
+Popped: 11
+Popped: 9
+Popped: 7
+size: 3
+isEmpty: false
+Distance of '1' from the top: 2
+=> 5
+=> 3
+=> 1
+Peeked: 5
+toString Output: 5 3 1
+Popped: 5
+Popped: 3
+Popped: 1
+Stack Empty
+StackUnderflowException
+toString Output: Empty Stack
+size: 0
+isEmpty: true
+Distance of '1' from the top: -1
