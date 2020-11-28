@@ -1,0 +1,114 @@
+
+**** 11/21/20 00:26:18 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\PREZENS\Desktop\CSE250\LAB 2\Schematic2.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Sat Nov 21 00:26:09 2020
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic2.net"
+
+**** INCLUDING Schematic2.net ****
+* Schematics Netlist *
+
+
+
+R_R1         $N_0002 $N_0001  10k  
+R_R2         0 $N_0001  1k  
+R_R3         $N_0001 $N_0003  10k  
+R_R4         0 $N_0003  1k  
+R_R5         $N_0003 $N_0004  10k  
+V_V1         $N_0002 0 12V
+R_R6         0 $N_0004  1k  
+
+**** RESUMING Schematic2.cir ****
+.INC "Schematic2.als"
+
+
+
+**** INCLUDING Schematic2.als ****
+* Schematics Aliases *
+
+.ALIASES
+R_R1            R1(1=$N_0002 2=$N_0001 )
+R_R2            R2(1=0 2=$N_0001 )
+R_R3            R3(1=$N_0001 2=$N_0003 )
+R_R4            R4(1=0 2=$N_0003 )
+R_R5            R5(1=$N_0003 2=$N_0004 )
+V_V1            V1(+=$N_0002 -=0 )
+R_R6            R6(1=0 2=$N_0004 )
+.ENDALIASES
+
+
+**** RESUMING Schematic2.cir ****
+.probe
+
+
+.END
+
+**** 11/21/20 00:26:18 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\PREZENS\Desktop\CSE250\LAB 2\Schematic2.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)    1.0070                   ($N_0002)   12.0000                       
+
+($N_0003)     .0846                   ($N_0004)     .0077                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -1.099E-03
+
+    TOTAL POWER DISSIPATION   1.32E-02  WATTS
+
+
+**** 11/21/20 00:26:18 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\PREZENS\Desktop\CSE250\LAB 2\Schematic2.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME            4.02
+
