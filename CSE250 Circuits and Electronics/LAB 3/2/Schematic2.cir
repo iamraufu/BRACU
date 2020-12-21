@@ -1,0 +1,22 @@
+* C:\Users\PREZENS\Desktop\CSE250\Lab 3\Schematic2.sch
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Dec 21 15:01:50 2020
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic2.net"
+.INC "Schematic2.als"
+
+
+.probe
+
+
+.END

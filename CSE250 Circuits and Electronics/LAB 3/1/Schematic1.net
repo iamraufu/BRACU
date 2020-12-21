@@ -1,0 +1,8 @@
+* Schematics Netlist *
+
+
+
+R_R1         $N_0002 $N_0001  4k  
+R_R2         $N_0001 $N_0003  7.5k  
+R_R3         $N_0003 0  1.5k  
+V_V1         $N_0002 0 6.5V

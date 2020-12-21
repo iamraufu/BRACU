@@ -1,0 +1,108 @@
+
+**** 12/21/20 15:03:12 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\PREZENS\Desktop\CSE250\Schematic1.sch
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+* Schematics Version 9.1 - Web Update 1
+* Mon Dec 21 15:03:10 2020
+
+
+
+** Analysis setup **
+.OP 
+
+
+* From [PSPICE NETLIST] section of pspiceev.ini:
+.lib "nom.lib"
+
+.INC "Schematic1.net"
+
+**** INCLUDING Schematic1.net ****
+* Schematics Netlist *
+
+
+
+R_R1         $N_0002 $N_0001  4k  
+R_R2         $N_0001 $N_0003  7.5k  
+R_R3         $N_0003 0  1.5k  
+V_V1         $N_0002 0 6.5V
+
+**** RESUMING Schematic1.cir ****
+.INC "Schematic1.als"
+
+
+
+**** INCLUDING Schematic1.als ****
+* Schematics Aliases *
+
+.ALIASES
+R_R1            R1(1=$N_0002 2=$N_0001 )
+R_R2            R2(1=$N_0001 2=$N_0003 )
+R_R3            R3(1=$N_0003 2=0 )
+V_V1            V1(+=$N_0002 -=0 )
+.ENDALIASES
+
+
+**** RESUMING Schematic1.cir ****
+.probe
+
+
+.END
+
+**** 12/21/20 15:03:12 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\PREZENS\Desktop\CSE250\Schematic1.sch
+
+
+ ****     SMALL SIGNAL BIAS SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+($N_0001)    4.5000                   ($N_0002)    6.5000                       
+
+($N_0003)     .7500                   
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1        -5.000E-04
+
+    TOTAL POWER DISSIPATION   3.25E-03  WATTS
+
+
+**** 12/21/20 15:03:12 *********** Evaluation PSpice (Nov 1999) **************
+
+ * C:\Users\PREZENS\Desktop\CSE250\Schematic1.sch
+
+
+ ****     OPERATING POINT INFORMATION      TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+
+
+          JOB CONCLUDED
+
+          TOTAL JOB TIME             .08
+
