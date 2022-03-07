@@ -1,0 +1,11 @@
+Fitter Status : Successful - Thu Feb 17 00:05:04 2022
+Quartus II Version : 8.1 Build 163 10/28/2008 SJ Web Edition
+Revision Name : task1
+Top-level Entity Name : task1
+Family : FLEX10KE
+Device : EPF10K30ETC144-1
+Timing Models : Final
+Total logic elements : 1 / 1,728 ( < 1 % )
+Total pins : 4 / 102 ( 4 % )
+Total memory bits : 0 / 24,576 ( 0 % )
+Total PLLs : 0

@@ -1,0 +1,172 @@
+<kpt_db name="LabTask3.map_bb" kpt_version="1.1">
+  <key_points_set type="reference" hier_sep="/">
+    <key_point id="1" type="register">
+      <name>y[1]</name>
+    </key_point>
+    <key_point id="2" type="register">
+      <name>y~21</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="3" type="register">
+      <name>y[0]</name>
+    </key_point>
+    <key_point id="4" type="register">
+      <name>y~20</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+      </attributes_list>
+    </key_point>
+  </key_points_set>
+  <key_points_set type="transition" hier_sep="|">
+    <key_point id="5" type="register">
+      <name>y.S2</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_KPSET_">S</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="6" type="register">
+      <name>y.S1</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_ELIM_STAT_">NF</attribute>
+        <attribute name="_KPT_INT_KPSET_">S</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="7" type="register">
+      <name>y.S3</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_KPSET_">S</attribute>
+      </attributes_list>
+    </key_point>
+    <key_point id="8" type="register">
+      <name>y.S0</name>
+      <attributes_list>
+        <attribute name="_KPT_INT_KPSET_">S</attribute>
+      </attributes_list>
+    </key_point>
+  </key_points_set>
+  <key_points_set type="transformed" hier_sep="|">
+    <key_point id="9" type="register">
+      <name>y.S2</name>
+    </key_point>
+    <key_point id="10" type="register">
+      <name>y.S3</name>
+    </key_point>
+    <key_point id="11" type="register">
+      <name>y.S0</name>
+    </key_point>
+  </key_points_set>
+  <transformations_set hier_sep="|">
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="8" type="proxy">          </kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="11" type="proxy">          </kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="5" type="proxy">          </kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="9" type="proxy">          </kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="7" type="proxy">          </kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="10" type="proxy">          </kp>
+        </kp_state>
+      </kp_set>
+    </transformation>
+    <transformation>
+      <kp_set type="reference">
+        <kp_state index="0">
+          <kp id="1" type="proxy">          </kp>
+        </kp_state>
+        <kp_state index="1">
+          <kp id="3" type="proxy">          </kp>
+        </kp_state>
+      </kp_set>
+      <kp_set type="transformed">
+        <kp_state index="0">
+          <kp id="7" type="proxy">          </kp>
+        </kp_state>
+        <kp_state index="1">
+          <kp id="5" type="proxy">          </kp>
+        </kp_state>
+        <kp_state index="2">
+          <kp id="6" type="proxy">          </kp>
+        </kp_state>
+        <kp_state index="3">
+          <kp id="8" type="proxy">          </kp>
+        </kp_state>
+      </kp_set>
+    <state_table type="lookup" fsm_name="y" num_states="4" num_reference_cols="2" num_transformed_cols="4">
+      <state index="0" state_name="y.S0">
+        <reference>
+          <value index="0">0          </value>
+          <value index="1">0          </value>
+        </reference>
+        <transformed>
+          <value index="0">0          </value>
+          <value index="1">0          </value>
+          <value index="2">0          </value>
+          <value index="3">0          </value>
+        </transformed>
+      </state>
+      <state index="1" state_name="y.S1">
+        <reference>
+          <value index="0">0          </value>
+          <value index="1">1          </value>
+        </reference>
+        <transformed>
+          <value index="0">0          </value>
+          <value index="1">0          </value>
+          <value index="2">1          </value>
+          <value index="3">1          </value>
+        </transformed>
+      </state>
+      <state index="2" state_name="y.S2">
+        <reference>
+          <value index="0">1          </value>
+          <value index="1">0          </value>
+        </reference>
+        <transformed>
+          <value index="0">0          </value>
+          <value index="1">1          </value>
+          <value index="2">0          </value>
+          <value index="3">1          </value>
+        </transformed>
+      </state>
+      <state index="3" state_name="y.S3">
+        <reference>
+          <value index="0">1          </value>
+          <value index="1">1          </value>
+        </reference>
+        <transformed>
+          <value index="0">1          </value>
+          <value index="1">0          </value>
+          <value index="2">0          </value>
+          <value index="3">1          </value>
+        </transformed>
+      </state>
+    </state_table>
+  </transformation>
+</transformations_set>
+</kpt_db>

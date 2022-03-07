@@ -1,0 +1,2 @@
+Info (10281): Verilog HDL Declaration information at Test_Moore.v(5): object "y" differs only in case from object "Y" in the same scope
+Info (10281): Verilog HDL Declaration information at Test_Mealy.v(5): object "y" differs only in case from object "Y" in the same scope

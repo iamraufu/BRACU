@@ -1,0 +1,6 @@
+
+State Machine - |Test_Moore|y
+Name y.A y.C y.B 
+y.A 0 0 0 
+y.B 1 0 1 
+y.C 1 1 0 

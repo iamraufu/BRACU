@@ -1,0 +1,13 @@
+|task1
+x => o~5.IN0
+x => o~0.IN0
+x => o~2.IN0
+y => o~2.IN1
+y => o~0.IN1
+y => o~5.IN1
+z => o~1.IN1
+z => o~3.IN0
+z => o~6.IN0
+o <= o~7.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,7 @@
+
+State Machine - |LabTask3|y
+Name y.S3 y.S2 y.S1 y.S0 
+y.S0 0 0 0 0 
+y.S1 0 0 1 1 
+y.S2 0 1 0 1 
+y.S3 1 0 0 1 
