@@ -1,0 +1,7 @@
+2
+ab*c*d
+a*b(cd)+e?f
+3
+acccd
+abbbbbcccc
+bcdcdef
