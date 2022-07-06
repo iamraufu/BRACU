@@ -22,8 +22,32 @@ This Repository Contain Lab Solves and Some Practice Problems of BRAC University
 # BRACUCSE321 - Operating Systems
 <a href="https://github.com/iamraufu/BRACUCSE321">CSE 321</a>
 
+# BRACUCSE340 - Computer Architecture
+<a href="https://github.com/iamraufu/BRACUCSE340">CSE 340</a>
+
 # BRACUCSE341 - Microprocessors
 <a href="https://github.com/iamraufu/BRACUCSE341">CSE 341</a>
+
+# BRACUCSE350 - Digital Electronics and Pulse Techniques
+<a href="https://github.com/iamraufu/BRACUCSE350">CSE 350</a>
+
+# BRACUCSE360 - Computer Interfacing
+<a href="https://github.com/iamraufu/BRACU/tree/main/archives/CSE360">CSE 360</a>
+
+# BRACUCSE420 - Compiler Design
+<a href="https://github.com/iamraufu/BRACUCSE420">CSE 420</a>
+
+# BRACUCSE421 - Computer Networks
+<a href="https://github.com/iamraufu/BRACUCSE421">CSE 421</a>
+
+# BRACUCSE422 - Artificial Intelligence
+<a href="https://github.com/iamraufu/BRACUCSE422">CSE 422</a>
+
+# BRACUCSE460 - VLSI Design
+<a href="https://github.com/iamraufu/BRACUCSE460">CSE 460</a>
+
+# BRACUCSE461 - Introduction to Robotics
+<a href="https://github.com/iamraufu/BRACU/tree/main/archives/CSE461">CSE 461</a>
 
 # BRACUCSE471 - System Analysis and Design
 <a href="https://github.com/iamraufu/BRACUCSE471">CSE 471</a>
