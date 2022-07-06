@@ -1,5 +1,5 @@
 # BRACU
-This Repository Contain Lab Solves and Some Practice Problems of BRAC University CSE110, CSE111, CSE220, CSE221, CSE250, CSE251, CSE321, CSE341, CSE471. I have separate repositories for individual courses. Further Courses will be uploaded soon.
+This Repository Contain Lab Solves and Some Practice Problems of BRAC University CSE110, CSE111, CSE220, CSE221, CSE250, CSE251, CSE321, CSE340, CSE341, CSE350, CSE360, CSE420, CSE421, CSE422, CSE460, CSE461, CSE471. I have separate repositories for individual courses. Further Courses will be uploaded soon.
 
 # BRACUCSE110 - Programming Language I
 <a href="https://github.com/iamraufu/BRACU/tree/main/CSE110%20Programming%20Language%20I">CSE 110</a>
